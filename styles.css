@@ -1,75 +1,71 @@
-<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	
-	<link rel="stylesheet" href="https://innovaroze.github.io/ebay/styles.css">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-</head>
+.head-text
+{color: black;background: #00FFFF;padding: 10px;border-radius: 10px;box-shadow: 1px 0px 7px 2px #296192;text-align: center;}
+.right-part
+{
+margin-top: 10px;
+}
+ 
+.p-intro
+{
+margin-top : 20px;
+   font-size: 17px;
+}
+#wrapper {
+    border: 5px solid #00FFFF;
+    margin: 20px;
+    border-radius: 15px;
+}
+ 
+.part {
+    padding: 1px;
+    background: #00FFFF;
+}
+.p-part {
+    color: #296192;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 5px 0px 5px;
+    font-weight: bold;
+}
+.intro-list1{
+margin-top: 5%;
+font-size: 17px;
+}
+li:before {
+  content: '\f006';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #0074D9;
+}
+ul,
+li {
+list-style: none;
+font-size: 17px;
+}
+@media screen and (min-width : 769px )
+{
+#wrapper>div>div.col-md-4> img
+{
+margin-left : -20px;
+}
+}
+  
+  .left-part img{max-width: 450px;}
+  
+  .intro-list li:before{
+	      content: '\f006';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #fff;}
+  .intro-list ul li:before{
+	      content: '\f006';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #0074D9;}
+	.preview img {
+    max-width: 100%;
+}/* CSS Document */
 
-<body>
-	<div id="container" align="center">
-		<div id="containerDarkBG">
-			<img src="https://i.ibb.co/kJ4t1QD/OPZilla-Header-680px.jpg" />
-		</div>
-	<div class="row">
-		<div class="col" id="column">
-		  <p id="headerCustom">PRODUCT</p>
-		  <p>Description</p>
-		</div>	
-		
-		<div class="col" id="column">
-		  <p id="headerCustom">SHIPPING</p>
-			<div class="row">
-				<div class="col">
-					<ul>
-						<li>FREE Expedited Shipping on Most Products</li>
-						<li>Shipping within 24h of cleared payment</li>
-						<li>We only ship to confirmed Paypal address.</li>
-					</ul>
-				</div>
-				<div class="col">
-					<img src="https://i.ibb.co/jTLk941/Free-Shipping-200px.jpg" />
-				</div>
-			</div>	
-		</div>
-			
-		<div class="col" id="column">
-		  <p id="headerCustom">PAYMENT</p>
-			<div class="row">
-
-				<div class="col">			
-					<ul>
-					<li>100% Satisfaction Guaranteed.</li>
-						<li>We offer a 30 days return policy.</li>
-					<li>Accepting Paypal.</li>
-					</ul>
-				</div>
-				<div class="col">
-					<img src="https://i.ibb.co/Bf8TQ9m/Satisfaction-Guaranteed-200px.jpg" />
-				</div>
-			
-			</div>
-		</div>
-			
-		<div class="col" id="column">
-		  <p id="headerCustom">FEEDBACK</p>
-			<div class="row">
-				<div class="col">
-					<ul>
-						<li>Your feedback is very important to us. We strive to satisfy our customers, and obtain 5 star feedback from each transaction! </li>
-						<li>Have questions? Please contact us via eBay.</li>
-					</ul>
-				</div>
-				<div class="col">
-					<img src="https://i.ibb.co/nbX97W2/OPZilla-5-stars-250px.jpg" />
-				</div>
-			</div>
-		</div>
-	</div>
-			<div><p id="headerCustom">@Copyright</p></div>
-	
-</body>
-</html>
